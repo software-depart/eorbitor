@@ -60,8 +60,17 @@ const Services = [
         thumb2:'solution',
         col:'col-lg-4',
         description:'Embarking on a journey of higher education in a foreign country opens doors to...',
+    },
+    {
+        Id: '5',
+        sImg: sImg5,
+        title: 'Cybersecurity-solutions',
+        slug: '',
+        thumb1: 'Threat Analysis',
+        thumb2: 'Risk Mitigation',
+        col: 'col-lg-4',
+        description: 'Protect your data and systems with modern security frameworks and monitoring tools...',
     }
-  
 ]    
 
 export default Services;
