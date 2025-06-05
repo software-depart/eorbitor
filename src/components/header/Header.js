@@ -78,7 +78,7 @@ const Header = (props) => {
                                                             <div className="megamenu_pages_wrapper mb-5">
                                                                 <div className="row">
                                                                     <div className="col-lg-3 col-md-6">
-                                                                        <Link onClick={ClickHandler} className="iconbox_block_2" to="/">
+                                                                        <Link onClick={ClickHandler} className="iconbox_block_2" to="/about">
                                                                             <span className="icon_title_wrap">
                                                                                 <small className="iconbox_icon">
                                                                                     <img src={icon1} alt="Wifi SVG Icon" />
@@ -288,7 +288,7 @@ const Header = (props) => {
                                             </ul>
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/">Dubai</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/">Contact</Link></li>
+                                        <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
                                     </ul>
                                 </div>
                             </nav>

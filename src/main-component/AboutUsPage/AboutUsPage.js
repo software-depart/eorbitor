@@ -20,7 +20,7 @@ const AboutUsPage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={'About Us'} pagesub={'More eorbitor 😃'} pageTop={'About'}/>
+                <PageTitle pageTitle={'About Us'} pagesub={'More eorbitor'} pageTop={'About'}/>
                 <section className="intro_about_section section_space bg-light">
                     <div className="intro_about_content">
                         <div className="container">
@@ -49,7 +49,7 @@ const AboutUsPage = (props) => {
                                 <div className="col-lg-4">
                                     <div className="heading_focus_text">
                                         About
-                                        <span className="badge bg-secondary text-white">eorbitor 🙂</span>
+                                        <span className="badge bg-secondary text-white">eorbitor</span>
                                     </div>
                                     <h2 className="heading_text mb-0">
                                         We Provide You Flexible Services

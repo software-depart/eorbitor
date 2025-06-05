@@ -19,7 +19,7 @@ const ContactSection = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Location</h3>
                                 <p className="mb-0">
-                                    Sunshine Business Park Sector-94, Poland
+                                    19, First Main Rd, Vengeeswarar Nagar, Vadapalani, Chennai
                                 </p>
                             </div>
                         </div>
@@ -30,9 +30,9 @@ const ContactSection = (props) => {
                                 <img src={icon2} alt="Calling SVG Icon" />
                             </div>
                             <div className="iconbox_content">
-                                <h3 className="iconbox_title">Contact</h3>
-                                <p className="mb-0">+88(0) 555-0108</p>
-                                <div className="mb-0">+88(0) 555-01117</div>
+                                <h3 className="iconbox_title">Toll-Free</h3>
+                                <p className="mb-0">1800 208 4646</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -43,8 +43,7 @@ const ContactSection = (props) => {
                             </div>
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Email</h3>
-                                <p className="mb-0">eorbitor@example.com</p>
-                                <p className="mb-0">gmail.@example.com</p>
+                                <p className="mb-0">Support@eorbitor.com</p>
                             </div>
                         </div>
                     </div>
@@ -55,7 +54,7 @@ const ContactSection = (props) => {
                             </div>
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Visit Between</h3>
-                                <p className="mb-0">Mon - Sat: 8.00-5.00</p>
+                                <p className="mb-0">Mon - Sat: 9.00-7.00</p>
                                 <p className="mb-0">Sunday: Closed</p>
                             </div>
                         </div>
@@ -74,7 +73,7 @@ const ContactSection = (props) => {
                         </div>
                         <div className="col-lg-5">
                             <div className="gmap_canvas ps-lg-5">
-                                <iframe title='map' src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                                 <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7966782841604!2d80.2152356!3d13.0486102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52674078a54afd%3A0xea0f062197c106cd!2seOrbitor%20Technologies%20Pvt%20Ltd.!5e0!3m2!1sen!2sin!4v1749063321719!5m2!1sen!2sin"></iframe>
                             </div>
                         </div>
                     </div>

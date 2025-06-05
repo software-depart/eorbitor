@@ -27,7 +27,7 @@ const ServiceSinglePage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content service-single-page">
-                <PageTitle pageTitle={ServiceDetails.title} pagesub={'Details 😍'} pageTop={'Services'} />
+                <PageTitle pageTitle={ServiceDetails.title} pagesub={'Details'} pageTop={'Services'} />
                 <section className="service_details_section section_space bg-light">
                     <div className="container">
                         <div className="details_item_image position-relative">

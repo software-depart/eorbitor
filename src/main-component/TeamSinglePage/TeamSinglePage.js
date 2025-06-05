@@ -26,7 +26,7 @@ const TeamSinglePage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={TeamDetails.name} pagesub={'Details 😍'} pageTop={'Team'} />
+                <PageTitle pageTitle={TeamDetails.name} pagesub={'Details'} pageTop={'Team'} />
                 <section className="team_details_section section_space bg-light">
                     <div className="container">
                         <div className="team_member_details_card">

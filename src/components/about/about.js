@@ -22,7 +22,6 @@ const About = (props) => {
                         <div className="about_image_1">
                             <img src={about1} alt="eorbitor - About" />
                             <img src={about2} data-parallax='{"y" : 80, "smoothness": 6}' alt="eorbitor - About" />
-                            <img src={about3} data-parallax='{"y" : -80, "smoothness": 6}' alt="eorbitor - About" />
                         </div>
                     </div>
                     <div className="col-lg-5">

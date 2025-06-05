@@ -17,7 +17,7 @@ const Hero = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12" style={{padding: '0px'}}>
-                        <video width="100%" autoPlay muted loop poster={heroImage}>
+                        <video width="100%" autoPlay muted loop>
                             <source src={heroVideo} type="video/mp4"></source>
                         </video>
                     </div>

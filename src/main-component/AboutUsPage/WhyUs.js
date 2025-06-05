@@ -25,7 +25,7 @@ const Policy = [
         icon: sIcon4,
     },
     {
-        title: 'Qualified Developers',
+        title: 'Deep Industry Experience',
         icon: sIcon5,
     },
     {

@@ -21,7 +21,7 @@ const TeamPage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={'Team Member'} pagesub={'Members 😍'} pageTop={'Team'} />
+                <PageTitle pageTitle={'Team Member'} pagesub={'Members'} pageTop={'Team'} />
                 <section className="about_section section_space bg-light">
                     <div className="container">
                         <div className="row align-items-center justify-content-lg-between">
@@ -60,7 +60,7 @@ const TeamPage = (props) => {
                         <div className="heading_block text-center">
                             <div className="heading_focus_text">
                                 <span className="badge bg-secondary text-white">Our Expert</span>
-                                Team Members 😍
+                                Team Members
                             </div>
                             <h2 className="heading_text mb-0">
                                 Top Skilled Experts

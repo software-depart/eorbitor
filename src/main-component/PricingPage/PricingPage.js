@@ -26,14 +26,14 @@ const PricingPage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={'Pricing Plan'} pagesub={'Pricing 😍'} pageTop={'Our'} />
+                <PageTitle pageTitle={'Pricing Plan'} pagesub={'Pricing'} pageTop={'Our'} />
                 <PolicySection />
                 <section className="pricing_section section_space pb-0 bg-light">
                     <div className="container">
                         <div className="heading_block text-center">
                             <div className="heading_focus_text mb-2">
                                 Our
-                                <span className="badge bg-secondary text-white">Pricing 😍</span>
+                                <span className="badge bg-secondary text-white">Pricing</span>
                             </div>
                             <h2 className="heading_text mb-0">
                                 Best Plane for Business
