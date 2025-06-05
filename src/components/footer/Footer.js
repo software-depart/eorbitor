@@ -57,7 +57,7 @@ const Footer = (props) => {
                 <div className="footer_widget pe-md-3">
                   <h2 className="footer_info_title">Newsletter</h2>
                   <p>
-                    Sign up to Techco weekly newsletter to get the latest
+                    Sign up to eOrbitor weekly newsletter to get the latest
                     updates.
                   </p>
                   <form className="footer_newslatter" onSubmit={SubmitHandler}>
