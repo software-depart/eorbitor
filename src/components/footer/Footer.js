@@ -102,7 +102,7 @@ const Footer = (props) => {
                         {service.title ? (
                           <Link
                             onClick={ClickHandler}
-                            to={`/service-single/${service.slug}`}
+                            to={`/${service.slug}`}
                           >
                             <span className="icon_list_text">
                               {service.title}
