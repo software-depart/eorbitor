@@ -18,7 +18,7 @@ const Hero = () => {
                 <div className="row">
                     <div className="col-lg-12" style={{padding: '0px'}}>
                         <video width="100%" autoPlay muted loop>
-                            <source src={heroVideo} type="video/mp4"></source>
+                             <source src={heroVideo} type="video/mp4"></source>
                         </video>
                     </div>
                 </div>
