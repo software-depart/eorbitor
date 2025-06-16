@@ -287,7 +287,7 @@ const Header = (props) => {
                                                 <li><Link onClick={ClickHandler} to="/">It-infrastructure-services</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link onClick={ClickHandler} to="/">Dubai</Link></li>
+                                        <li><Link onClick={ClickHandler} to="/dubai">Dubai</Link></li>
                                         <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
                                     </ul>
                                 </div>

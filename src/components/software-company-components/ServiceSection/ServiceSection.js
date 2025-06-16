@@ -1,5 +1,5 @@
 import React from 'react';
-import Services from '../../../api/service'
+import Services from '../../../api/service2'
 import { Link } from "react-router-dom";
 import Bg from '../../../images/shapes/shape_title_under_line.svg'
 import shape1 from '../../../images/shapes/shape_line_5.svg'
@@ -56,21 +56,11 @@ const ServiceSection = (props) => {
 
                 </div>
             </div>
-
-            <div className="decoration_item shape_image_1">
-                <img src={shape1} alt="eorbitor Shape"/>
-            </div>
             <div className="decoration_item shape_image_2">
                 <img src={shape2} alt="eorbitor Shape"/>
             </div>
             <div className="decoration_item shape_image_3">
                 <img src={shape3} alt="eorbitor Shape"/>
-            </div>
-            <div className="decoration_item shape_image_4">
-                <img src={shape4} alt="eorbitor Shape Angle"/>
-            </div>
-            <div className="decoration_item shape_image_5">
-                <img src={shape5} alt="eorbitor Shape Angle"/>
             </div>
         </section>
     );
