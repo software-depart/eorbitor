@@ -95,7 +95,7 @@ const AiMlSolutions = (props) => {
                 <div className="section_space pb-0">
                     <div className="row">
                         <div className="col-lg-12">
-                            {blogs.slice(3, 8).map((blog, Bitem) => (
+                            {blogs.slice(3, 10).map((blog, Bitem) => (
                                 <div className="blog_post_block image_left_layout" key={Bitem}>
                                     <div className="blog_post_image">
                                         <Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`} className="image_wrap">

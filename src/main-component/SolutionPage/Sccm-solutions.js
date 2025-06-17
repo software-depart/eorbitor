@@ -13,7 +13,7 @@ const sccmSolutions = (props) => {
         <Fragment>
             <Header />
             <main className="page_content blog-page">
-                <PageTitle pageTitle={'Our Latest Blog'} pagesub={'Blogs😍'} pageTop={'Our'}/>
+                <PageTitle pageTitle={'SCCM Solutions'} pagesub={'Solutions'} pageTop={'Our'}/>
                 <BlogList/>
             </main>
             <CtaSection />
