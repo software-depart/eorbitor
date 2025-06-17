@@ -13,7 +13,7 @@ const digitalSolutions = (props) => {
         <Fragment>
             <Header />
             <main className="page_content blog-page">
-                <PageTitle pageTitle={'Our Latest Blog'} pagesub={'Blogs😍'} pageTop={'Our'}/>
+                <PageTitle pageTitle={'Digital Solutions'} pagesub={'Services'} pageTop={'Our'}/>
                 <BlogList/>
             </main>
             <CtaSection />
