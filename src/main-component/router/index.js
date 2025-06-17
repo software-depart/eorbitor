@@ -46,6 +46,7 @@ const AllRoute = () => {
           <Route path="solutions/application-solutions" element={<ApplicationSolutions />} />
           <Route path="solutions/digital-solutions" element={<DigitalSolutions />} />
           <Route path="blog-single/:slug" element={<BlogDetails />} />
+          <Route path="solution-details/:slug" element={<BlogDetails />} />
           <Route path="contact" element={<ContactPage />} />  
         </Routes>
       </BrowserRouter>

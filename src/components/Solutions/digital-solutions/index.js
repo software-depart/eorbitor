@@ -47,29 +47,29 @@ const DigitalSolutions = (props) => {
                                 <SwiperSlide key={Bitem}>
                                     <div className="blog_post_block content_over_layout">
                                         <div className="blog_post_image">
-                                            <Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`} className="image_wrap">
+                                            <Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`} className="image_wrap">
                                                 <img src={bImg} alt="Blog Post" />
                                             </Link>
                                         </div>
                                         <div className="blog_post_content">
                                             <div className="post_meta_wrap">
                                                 <ul className="category_btns_group unordered_list">
-                                                    <li><Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`}>Branding</Link></li>
-                                                    <li><Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`}>UI/UX</Link></li>
+                                                    <li><Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`}>Branding</Link></li>
+                                                    <li><Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`}>UI/UX</Link></li>
                                                 </ul>
                                                 <ul className="post_meta unordered_list">
                                                     <li>
-                                                        <Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`}>
+                                                        <Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`}>
                                                             <i className="fa-regular fa-calendar-days"></i> {blog.create_at}
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`}><i className="fa-regular fa-comment-lines"></i> 24</Link>
+                                                        <Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`}><i className="fa-regular fa-comment-lines"></i> 24</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <h3 className="blog_post_title">
-                                                <Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`}>
+                                                <Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`}>
                                                     {blog.title}
                                                 </Link>
                                             </h3>
@@ -98,25 +98,25 @@ const DigitalSolutions = (props) => {
                             {blogs.slice(3, 8).map((blog, Bitem) => (
                                 <div className="blog_post_block image_left_layout" key={Bitem}>
                                     <div className="blog_post_image">
-                                        <Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`} className="image_wrap">
+                                        <Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`} className="image_wrap">
                                             <img src={blog.screens} alt="Blog Post" />
                                         </Link>
                                     </div>
                                     <div className="blog_post_content">
                                         <div className="post_meta_wrap">
                                             <ul className="category_btns_group unordered_list">
-                                                <li><Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`}>{blog.thumb}</Link></li>
+                                                <li><Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`}>{blog.thumb}</Link></li>
                                             </ul>
                                         </div>
                                         <h3 className="blog_post_title">
-                                            <Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`}>
+                                            <Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`}>
                                                 {blog.title}
                                             </Link>
                                         </h3>
                                         <p>
                                             {blog.description}
                                         </p>
-                                        <Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`} className="btn btn-dark">
+                                        <Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`} className="btn btn-dark">
                                             <span className="btn_label" data-text="Read More">Read More</span>
                                             <span className="btn_icon">
                                                 <i className="fa-solid fa-arrow-up-right"></i>
