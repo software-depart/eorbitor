@@ -2,14 +2,13 @@ import { useRef, useEffect } from 'react';
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Link } from 'react-router-dom'
-import blogs from '../../api/blogs'
-import bImg from '../../images/blog/blog_post_image_4.webp'
-import arrow from '../../images/shapes/shape_arrow_right.svg'
-import arrow2 from '../../images/shapes/shape_arrow_left.svg'
-import icon1 from '../../images/icons/icon_calendar.svg'
+import blogs from '../../../api/solutions/cyber-security-solutions'
+import bImg from '../../../images/blog/blog_post_image_4.webp'
+import arrow from '../../../images/shapes/shape_arrow_right.svg'
+import arrow2 from '../../../images/shapes/shape_arrow_left.svg'
 import BlogSidebar from '../BlogSidebar';
 
-const BlogList = (props) => {
+const CyberSecuritySolutions = (props) => {
     const prevRef = useRef(null);
     const nextRef = useRef(null);
     const swiperRef = useRef(null);
@@ -136,4 +135,4 @@ const BlogList = (props) => {
 
 }
 
-export default BlogList;
+export default CyberSecuritySolutions;

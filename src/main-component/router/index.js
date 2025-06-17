@@ -12,7 +12,12 @@ import TeamPage from '../TeamPage/TeamPage';
 import TeamSinglePage from '../TeamSinglePage/TeamSinglePage';
 import ServicePage from '../ServicePage/ServicePage';
 import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
-import BlogPage from '../BlogPage/BlogPage';
+import SccmSolutions from '../SolutionPage/Sccm-solutions';
+import CyberSecuritySolutions from '../SolutionPage/Cyber-security-solutions';
+import AI_ML_Solutions from '../SolutionPage/AI-ML-solutions';
+import ApplicationSolutions from '../SolutionPage/Application-solutions';
+import DigitalSolutions from '../SolutionPage/Digital-solutions';
+
 import BlogDetails from '../BlogDetails/BlogDetails';
 import ContactPage from '../ContactPage/ContactPage';
 
@@ -35,7 +40,11 @@ const AllRoute = () => {
           <Route path="team-single/:slug" element={<TeamSinglePage />} />
           <Route path="service" element={<ServicePage />} />
           <Route path="service-single/:slug" element={<ServiceSinglePage />} />
-          <Route path="blog" element={<BlogPage />} />
+          <Route path="solutions/sccm-solutions" element={<SccmSolutions />} />
+          <Route path="solutions/cyber-security-solutions" element={<CyberSecuritySolutions />} />
+          <Route path="solutions/ai-ml-solutions" element={<AI_ML_Solutions />} />
+          <Route path="solutions/application-solutions" element={<ApplicationSolutions />} />
+          <Route path="solutions/digital-solutions" element={<DigitalSolutions />} />
           <Route path="blog-single/:slug" element={<BlogDetails />} />
           <Route path="contact" element={<ContactPage />} />  
         </Routes>

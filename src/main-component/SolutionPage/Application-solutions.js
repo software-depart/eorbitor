@@ -4,10 +4,10 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
-import BlogList from '../../components/BlogList';
+import BlogList from '../../components/Solutions/application-solutions';
 
 
-const BlogPage = (props) => {
+const applicationSolutions = (props) => {
 
     return (
         <Fragment>
@@ -22,4 +22,4 @@ const BlogPage = (props) => {
         </Fragment>
     )
 };
-export default BlogPage;
+export default applicationSolutions;
