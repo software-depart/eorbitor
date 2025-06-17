@@ -281,10 +281,10 @@ const Header = (props) => {
                                                 Services
                                             </Link>
                                             <ul className="dropdown-menu" aria-labelledby="portfolio_submenu">
-                                                <li><Link onClick={ClickHandler} to="/">Cloud-solutions</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/">Data-center-solutions</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/">Networking-services</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/">It-infrastructure-services</Link></li>
+                                                <li><Link onClick={ClickHandler} to="/service-single/cloud-solutions">Cloud-solutions</Link></li>
+                                                <li><Link onClick={ClickHandler} to="/service-single/data-center-solutions">Data-center-solutions</Link></li>
+                                                <li><Link onClick={ClickHandler} to="/service-single/networking-services">Networking-services</Link></li>
+                                                <li><Link onClick={ClickHandler} to="/service-single/it-infrastructure-services">It-infrastructure-services</Link></li>
                                             </ul>
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/dubai">Dubai</Link></li>
