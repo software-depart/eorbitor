@@ -20,63 +20,16 @@ const About = (props) => {
   }
 
   return (
-    <section className="about_and_case_section section_space section_decoration bg-dark" style={{ backgroundImage: `url(${Bg})` }}>
+   <section className="about_and_case_section section_space section_decoration bg-dark" style={{ backgroundImage: `url(${Bg})` }}>
       <div className="container">
         <div className="row align-items-center justify-content-lg-between">
           <div className="col-lg-7 order-lg-last">
             <div className="about_image_2">
-              <div className="image_wrap">
+              <div>
                 <img src={about1} alt="eorbitor - About" />
               </div>
-              <div className="about_funfact_info" style={{ backgroundImage: `url(${Bg2})` }}>
-                <div className="customer_count">
-                  <ul className="unordered_list">
-                    <li>
-                      <img src={aIcon1} alt="Customer Avatar" />
-                    </li>
-                    <li>
-                      <img src={aIcon2} alt="Customer Avatar" />
-                    </li>
-                    <li>
-                      <img src={aIcon3} alt="Customer Avatar" />
-                    </li>
-                    <li>
-                      <span>6k+</span>
-                    </li>
-                  </ul>
-                  <p className="mb-0">
-                    Happy Customer
-                  </p>
-                </div>
-                <div className="about_funfact_counter">
-                  <div className="funfact_item">
-                    <div className="counter_value">
-                      <span className="odometer" data-count="6">0</span>
-                      <span>K+</span>
-                    </div>
-                    <h3 className="funfact_title mb-0">Projects Done</h3>
-                  </div>
-                  <div className="funfact_item">
-                    <div className="counter_value">
-                      <span className="odometer" data-count="100">0</span>
-                      <span>%</span>
-                    </div>
-                    <h3 className="funfact_title mb-0">Results Guaranteed</h3>
-                  </div>
-                </div>
-                <a className="btn btn-primary" href="about.html">
-                  <span className="btn_label" data-text="Learn More">Learn More</span>
-                  <span className="btn_icon">
-                    <i className="fa-solid fa-arrow-up-right"></i>
-                  </span>
-                </a>
-                <div className="icon_globe">
-                  <img src={aIcon4} alt="Icon Globe" />
-                </div>
-              </div>
-              <div className="space_line">
-                <img src={aIcon5} alt="Shape Line" />
-              </div>
+              
+              
             </div>
           </div>
           <div className="col-lg-5">
@@ -85,11 +38,14 @@ const About = (props) => {
                 <div className="heading_focus_text has_underline d-inline-flex" style={{ backgroundImage: `url(${Bg3})` }}>
                   About Us
                 </div>
-                <h2 className="heading_text">
-                  eorbitor <mark>Mission & Goal</mark>
+                 <h2 className="heading_text">
+                Powering Digital Transformation in the Middle East
                 </h2>
                 <p className="heading_description mb-0">
-                  At eorbitor, our mission is to empower businesses through innovative software solutions that streamline operations, foster growth, and drive success. With a commitment to excellence and customer satisfaction we strive.
+                 We're excited to announce the launch of Eorbitor in Dubai – the global hub of innovation and technology.
+Eorbitor empowers businesses with cutting-edge digital transformation, automation, and ERP solutions.
+With our presence in Dubai, we bring world-class expertise closer to enterprises in the Middle East.
+Unlock the future of business with Eorbitor – where intelligence meets innovation.
                 </p>
               </div>
             </div>
@@ -99,10 +55,10 @@ const About = (props) => {
         <div className="pt-170">
           <div className="heading_block text-center text-white">
             <div className="heading_focus_text has_underline d-inline-flex" style={{ backgroundImage: `url(${Bg3})` }}>
-              Case Studies
+              Services
             </div>
             <h2 className="heading_text mb-0">
-              Our latest <mark>Case</mark> Studies
+              Our latest <mark>Services</mark> 
             </h2>
           </div>
 
@@ -122,28 +78,10 @@ const About = (props) => {
                   <p>
                     {project.description}
                   </p>
-                  <ul className="icon_list unordered_list">
-                    <li>
-                      <span className="icon_list_text">
-                        <strong className="text-dark">Industry:</strong> {project.Industry}
-                      </span>
-                    </li>
-                    <li>
-                      <span className="icon_list_text">
-                        <strong className="text-dark">Country:</strong> {project.Country}
-                      </span>
-                    </li>
-                  </ul>
-                  <ul className="case_technologies unordered_list" data-text="Core Technologies:">
-                    <li>
-                      <img src={project.Technologies1} alt="Angular" />
-                    </li>
-                    <li>
-                      <img src={project.Technologies2} alt="Elephent" />
-                    </li>
-                  </ul>
+                  
+                
                   <Link onClick={ClickHandler} to={`/portfolio_details/${project.slug}`} className="btn btn-primary">
-                    <span className="btn_label" data-text="Read Case">Read Case</span>
+                    <span className="btn_label" data-text="Read More">Read More </span>
                     <span className="btn_icon">
                       <i className="fa-solid fa-arrow-up-right"></i>
                     </span>
@@ -155,7 +93,7 @@ const About = (props) => {
 
           <div className="btns_group pb-0">
             <Link onClick={ClickHandler} to="/portfolio" className="btn btn-primary">
-              <span className="btn_label" data-text="View More Cases Study">View More Cases Study</span>
+              <span className="btn_label" data-text="View More Services">View More Services</span>
               <span className="btn_icon">
                 <i className="fa-solid fa-arrow-up-right"></i>
               </span>

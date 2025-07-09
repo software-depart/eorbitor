@@ -48,7 +48,7 @@ const SccmSolutions = (props) => {
                                     <div className="blog_post_block content_over_layout">
                                         <div className="blog_post_image">
                                             <Link onClick={ClickHandler} to={`/solution-details/${blog.slug}`} className="image_wrap">
-                                                <img src={bImg} alt="Blog Post" />
+                                                {/* <img src={bImg} alt="Blog Post" /> */}
                                             </Link>
                                         </div>
                                         <div className="blog_post_content">

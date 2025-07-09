@@ -11,6 +11,8 @@ import TeamSection from '../../components/TeamSection/TeamSection';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
+import BusinessContact from '../../components/business-consulting-components/BusinessContact/BusinessContact';
+import BusinessFooter from '../../components/business-consulting-components/BusinessFooter/BusinessFooter';
 
 
 const HomePage4 = () => {
@@ -27,7 +29,7 @@ const HomePage4 = () => {
                     <ServiceSection />
                     <ProjectSection />
                     <Testimonial />
-                    <TeamSection />
+                    <BusinessContact />
                     <CtaSection />
                 </main>
                 <Footer />

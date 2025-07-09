@@ -5,18 +5,18 @@ import sIcon3 from '../../images/icons/icon_target.svg'
 
 const Policy = [
     {
-        title: 'Our History',
-        subTitle: 'Since 1997 we have been a visionary and a reliable software engineering partner for world-class brands. abbreviated as co.',
+        title: 'Who We Are',
+        subTitle: 'eOrbitor Holding is a leading technology solutions and services provider, specializing in security, systems integration, and end-to-end project execution. We deliver exceptional service and innovative solutions to clients across the UAE, India, and the wider region.',
         icon: sIcon1,
     },
     {
         title: 'Our Mission',
-        subTitle: 'A mission statement clarifies what the company wants to achieve, who they want to support, and why they want to support them. On the other hand',
+        subTitle: 'At eOrbitor Technologies, our mission is to deliver high-impact, enterprise-grade technology solutions that drive operational excellence, digital transformation, and sustained value creation for our clients. We are committed to leveraging innovation, industry best practices, and strategic insight to empower organizations to navigate complexity, accelerate growth, and achieve long-term success. Through a culture of integrity, performance, and continuous improvement, we aim to be a trusted partner in shaping the future of business through technology.',
         icon: sIcon2,
     },
     {
         title: 'Our Vision',
-        subTitle: 'A vision statement for a company or organization focuses on the potential inherent in the companys future; its about what they intend to be how you',
+        subTitle: 'To be a globally recognized leader in enterprise technology solutions, known for our commitment to innovation, reliability, and delivering measurable business outcomes. We envision a future where technology and strategy converge to enable intelligent, agile, and resilient organizations.',
         icon: sIcon3,
     },
 
